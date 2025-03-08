@@ -10,10 +10,6 @@ import pandas as pd
 import sys
 import os
 
-try:
-    pass
-except Exception as e:
-    raise custom_exception(e, sys)
 
 class data_validation:
     def __init__(self, data_validation_config :DataValidationConfig, 
